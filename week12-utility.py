@@ -5,4 +5,7 @@
 def PrintOutput(whatToPrint):
     print("OUTPUT", whatToPrint)
 
-PrintOutput("Hey")
+def LoadFile (filename):
+    file = open(filename)
+    fRead = file.read()
+    return fRead.split('\n')
