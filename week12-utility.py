@@ -37,4 +37,14 @@ def ScoreFinder(listNames, listFloats, playerFind):
 def Union(list1, list2):
     return list1 + list2
 
+def Intersection(list1, list2):
+    overLapList = []
+    for i in range(len(list1)):
+        for j in range(len(list2)):
+            print (list1[i], list2[j])
+            if list1[i] == list2[j]:
+               overLapList.append(list1[i])
+
+    return overLapList
+
 
