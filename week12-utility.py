@@ -24,3 +24,13 @@ def FindWordCount(list, string):
     counter = makeString.count(string)
     return counter
 
+def ScoreFinder(listNames, listFloats, playerFind):
+    foundPlayer = False
+    for i in range(len(listNames)):
+        if playerFind.capitalize() == listNames[i]:
+            print("OUTPUT", playerFind, "got a score of 6")
+            foundPlayer = True
+    if foundPlayer == False:
+        print("OUTPUT player not found")
+
+
