@@ -19,5 +19,8 @@ def UpdateString(string1, string2, index):
         updatedString += i
     print(updatedString)
 
-
+def FindWordCount(list, string):
+    makeString = str(list)
+    counter = makeString.count(string)
+    return counter
 
