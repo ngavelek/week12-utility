@@ -1,5 +1,6 @@
+#https://github.com/ngavelek/week12-utility/commits/master
 #Nate Gavelek
-#CSCI 102
+#CSCI 102 - Section C
 #week12-utility -- Incremental build model
 
 def PrintOutput(whatToPrint):
@@ -32,5 +33,8 @@ def ScoreFinder(listNames, listFloats, playerFind):
             foundPlayer = True
     if foundPlayer == False:
         print("OUTPUT player not found")
+
+def Union(list1, list2):
+    return list1 + list2
 
 
