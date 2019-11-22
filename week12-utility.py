@@ -45,6 +45,7 @@ def Intersection(list1, list2):
                overLapList.append(list1[i])
     return overLapList
 
-
-
+def NotIn(list1, list2):
+    notInList = (list(set(list1) - set(list2)))
+    return notInList
 
